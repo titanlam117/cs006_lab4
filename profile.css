@@ -1,0 +1,36 @@
+/* https://css-tricks.com/color-filters-can-turn-your-gray-skies-blue/ */
+
+.profile-link {
+  display: inline-block;
+  padding: 1em;
+  width: 10em;
+  max-width: 80%;
+}
+.profile-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  
+  -webkit-filter: 
+    drop-shadow(#222 0.2em 0.2em 0.8em);
+  filter:  
+    drop-shadow(#222 0.2em 0.2em 0.8em);
+  transition: filter 0.3s, box-shadow 0.3s;
+  -webkit-transition: filter 0.3s, -webkit-filter 0.3s, box-shadow 0.3s;
+}
+.profile-link:hover .profile-pic, 
+.profile-link:focus .profile-pic {
+  /**/
+  -webkit-filter: url(#duotone) 
+    drop-shadow(#224 0.25em 0.25em 0.6em);
+  filter:  url(#duotone); /* For Firefox pre-35 */
+  filter:  url(#duotone) 
+    drop-shadow(#224 0.25em 0.25em 0.6em);
+}
+.defs-only {
+  position: absolute;
+  height: 0; width: 0;
+  overflow: none;
+  left: -100%;
+}
+

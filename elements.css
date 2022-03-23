@@ -1,0 +1,83 @@
+.one-edge-shadow {
+	-webkit-box-shadow: 0 3px 5px -3px rgba(0,0,0,0.7);
+	   -moz-box-shadow: 0 3px 5px -3px rgba(0,0,0,0.7);
+	        box-shadow: 0 3px 5px -3px rgba(0,0,0,0.7);
+}
+
+body { 
+  width: 90%; 
+  margin: 0 auto;
+  color: rgb(70, 72, 102); /* grey, https://www.colorhexa.com/464866*/
+  background-color: rgb(37,39,77); /* navy, https://www.colorhexa.com/25274d */
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Shojumaru', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+header { 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 70%;
+  text-align: center;
+  border-radius: 10px; 
+  border: 2px ridge rgb(70, 72, 102); /* grey, https://www.colorhexa.com/464866*/
+  border-bottom: 2mm ridge rgb(70, 72, 102); /* grey, https://www.colorhexa.com/464866*/
+  background-color: rgb(46, 156, 202); /* light blue, https://www.colorhexa.com/2e9cca */
+  box-shadow:rgba(0,0,0,0.5) 1px 4px 2px -2px;
+}
+
+h1 { 
+  padding: 10px;
+  color: rgb(37,39,77); /* dark blue, https://www.colorhexa.com/25274d */
+  background-color: rgb(70, 72, 102); /* grey, https://www.colorhexa.com/464866*/
+  border-bottom: 2mm solid rgb(41, 100, 138	); /* dark blue, https://www.colorhexa.com/29648a */
+  border-radius: 5px;
+  box-shadow:rgba(0,0,0,0.5) 1px 4px 2px -2px; /* shadow color is black with 50% transparency */
+}
+
+h2, h3, h4, h5, ul, ol, address, footer {
+  margin-left: auto; 
+  margin-right: auto;
+  width: 95%;
+}
+
+nav {
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 5px;
+  font-weight: 900;
+  background-color: rgb(70, 72, 102); /* grey, https://www.colorhexa.com/464866*/
+  font-size: 18px; 
+  text-align: left;
+  background-image: linear-gradient(
+      to right,
+      rgba(170, 171, 184, 0.301), 
+      rgba(37,39,77, 0.699)), 
+      url("japan_scenery.png");
+
+}
+
+nav a {
+  color: rgb(37,39,77); /* navy, https://www.colorhexa.com/25274d */
+}
+
+div {
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 10px;
+  width: 70%;
+  border-radius: 5px; 
+  border: 2px ridge rgb(170, 171, 184	); /* light grey, https://www.colorhexa.com/aaabb8 */
+  border-bottom: solid 10px rgb(170, 171, 184	); /* light grey, https://www.colorhexa.com/aaabb8 */
+  background-color: rgb(46, 156, 202); /* light blue, https://www.colorhexa.com/2e9cca */
+  box-shadow: 2px 3px 5px -3px rgba(0,0,0,0.5); /* shadow color is black with 50% transparency */
+}
+
+p {
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 95%;
+}
